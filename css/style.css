@@ -97,157 +97,262 @@ width: 17vh !important;
       font-size: 15px;
   }
 
-/*Jumbotron 2*/
 
-#Picture2{
-background-image: url("../images/IMG_4964.jpg");
-background-size: 110vh;
-background-repeat: no-repeat;
-border-radius: 50%;
-background-position: center;
-width: 70vh;
-height: 70vh;
+/* Jumbotron  */
+.jumbotron {
+    background-image: url("../images/two-standing-smartphones-mockup0.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items:unset;
+    justify-content:unset;
+  }
+  
+  /* Jumbotron copy */
+
+  .d-flex{
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: flex-end;
+      margin-top: 42%;
+  }
+
+  #jumboCopy {
+    color: white;
+    text-align:center;
+    height: 50%;
+    width: 250%;
+    display: flex;
+    flex-direction: column;
+    align-items: botton;
+    justify-content: flex-end;
+  }
+
+  .display-4{
+      color: white;
+  }
+
+  .lead{
+      color: white;
+      font-size: 35px;
+  }
+
+  /*Role*/
+.Roles{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly !important;
+}
+
+  .Rol{
+      font-size: 18px;
+      font-weight: bold;
+      color: #A66732;
+      text-align: center;
+  }
+
+
+
+  /*Description*/
+
+  .descritpionConnor{
+      background-color: #ECDCC5;
+      padding: inline 20% ;
+  }
+
+  #description{
+      background-color: #ECDCC5 !important;
+      width: 85vh;
+      margin-top: 5%;
+  }
+
+  .muckuper{
+      width: 70vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+
+  /*User Research*/
+
+  .TittleUser{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 5%;
+      color: #0c6170;
+      font-size: 80px;
+      font-weight: bold;
+  }
+
+  .container1{
+      margin: 5%;
+      padding:inline 20%;
+  }
+
+/*Ideations*/
+.IdeationPart{
+    background-color:#a7bcc1;
+}
+
+.Ideation{
+    color: #e5e5e5;
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 5%;
+      font-size: 80px;
+      font-weight: bold;
+}
+
+.col-sm{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.Subtittle{
+    font-size: 24px;
+    font-weight: bold !important;
+}
+
+.FeatureImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#text6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card{
+    background-color: transparent;
+    width:70%;
+
+}
+
+.card1{
+    background-color: transparent;
+    width:70%;
+    margin-bottom: 50%;
+
+}
+
+.ValueContainer{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 2.5%;
+    padding-bottom: 5%;
+}
+
+.CompetitorContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 5%;*/
+}
+
+.CompetitorText{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.SketchContainers{
 display: flex;
 align-items: center;
 justify-content: center;
-margin-top: 7.5%;
-margin-left: 10%;
 
+    /*padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 2.5%;*/
 }
 
-.card-body5{
-padding: 20px;
-margin: 15%;
+/*Prototype*/
+
+.StepsContainer{
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
-#introducction{
+.PrototypeContainer{
+    padding: 10%;
+}
+
+.Arrow2{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: baseline;
+    justify-content: baseline;
+    width: 30%;
 }
 
-#papa{
-    background-image:url("../images/Parallax\ Image.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    stroke: transparent !important;
-    height:max-content;
+
+.card-img-top5{
+    border-radius: 8% !important;
+    width: 90%;
+}
+
+
+/*Conclusion*/
+
+.Conclusion{
+    background-color: #bcd1e4;
+}
+
+.TittleConclusion{
+    color:#cf996a;
     display: flex;
-    align-items: center;
-    justify-content: center;
+      align-items: center;
+      justify-content: center;
+     margin-bottom: 1.5%;
+      font-size: 80px;
+      font-weight: bold;
 }
 
-
-
-/*Text*/
-
-.card-title2{
-    font-family: Montserrat;
-    font-size: 50px;
-    font-weight: bold !important;
-    color: #6e9290;
-}
-
-.card-text2{
-    font-family: Montserrat;
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.card-text3{
-    font-family: Montserrat;
-    font-size: 18px;
-}
-
-
-
-/*UI/UX CASES STUDIES*/
-
-#frase{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Montserrat;
-  font-size: 18px;
-  font-weight: 900;
-  margin: 2%;
-}
-
-#Tittle{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Montserrat;
-  font-size: 50px;
-  font-weight: 900;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2;
-  letter-spacing: normal;
-  text-align: center;
-  color: #24354a;
-}
-
-.card-group1{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 3.5%;
-}
-
-.card-body{
-display: flex;
-align-items:baseline;
-justify-content: space-around;
-}
-
-
-#id{
-    background-color: #ECDCC5;
-}
-
-h3{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/*TOOLS*/
-
-.jumbotron1{
-    background-color: #ECDCC5;
-    display: flex;
-    align-items:center;
-    justify-content: center;
-}
-
-.container{
+.FinalContainer{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 10%;
 }
 
-#icons{
-    margin: 2%;
-    padding: auto;
-
+.TextConclusion{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*margin:10%;*/
 }
 
-.Tools{
-    text-align: center;
+/*End*/
+
+.Connor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f3f2;
 }
 
-.col-md-1{
-    animation: bounce .7s infinite;
+.memory{
+    margin: 5%;
+    font-style: italic;
 }
 
-/*Designs*/
-
-.card-deck{
-    margin: 3.5%;
-}
 
 /*Footer*/
 #footer{
@@ -261,14 +366,4 @@ h3{
     margin: 0.5%;
 }
 
-@keyframes bounce{
-    from {
-        margin-top: 0px;
-    }
-50%{
-    margin-top:7px;
-}
-to{
-    margin-top:0px;
-}
-}
+
